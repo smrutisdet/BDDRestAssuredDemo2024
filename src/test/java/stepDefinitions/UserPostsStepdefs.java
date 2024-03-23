@@ -27,4 +27,15 @@ public class UserPostsStepdefs {
     public void responseShouldBeInJsonFormat() {
         uPosts.verifyResponseFormat();
     }
+
+    @When("user hits the end point with post method by passing valid {string} and {string} and {string}")
+    public void userHitsTheEndPointWithPostMethodByPassingValidIdAndTitleAndAuthor(String id, String title,String author) {
+        uPosts.hitEndPointWithHTTPPostMethod(id,title,author);
+
+    }
+
+    @And("API should return created data in response body with {string} and {string} and {string}")
+    public void apiShouldReturnCreatedDataInResponseBodyWithIdAndTitleAndAuthor(String id, String title,String author) {
+    uPosts.verifyPostObjectCreation(id,title,author);
+    }
 }
