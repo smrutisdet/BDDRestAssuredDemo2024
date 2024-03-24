@@ -48,4 +48,14 @@ public class UserPostsStepdefs {
     public void apiShouldReturnUpdatedDataInResponseBodyWithIdAndTitleAndAuthor(String id, String title,String author) {
         uPosts.verifyPutMethodUpdates(id,  title, author);
     }
+
+    @When("user hits the end point with patch method by passing valid {string}  and {string}")
+    public void userHitsTheEndPointWithPatchMethodByPassingValidIdAndAuthor(String id,String author) {
+uPosts.hitEndPointWithPatchMethod(id,author);
+    }
+
+    @And("API should return updated patch data in response body with {string} and {string}")
+    public void apiShouldReturnUpdatedPatchDataInResponseBodyWithIdAndAuthor(String id,String author) {
+        uPosts.verifyPatchMethodUpdates(id,author);
+    }
 }
