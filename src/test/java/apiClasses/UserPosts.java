@@ -5,31 +5,25 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Assert;
 import pojoClasses.UserPostsPojo;
+import utilities.BaseSteps;
 
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Properties;
-
 import static io.restassured.RestAssured.given;
-
-public class UserPosts {
+public class UserPosts  {
 private Properties prop;
-private String baseURI;
 private String endPoint;
 private Response response;
 private int statusCode;
+private BaseSteps baseSteps;
+private String UpdateByIdUsingPutEndPoint;
 public void setUserPostEndPoint(String resource){
-    prop=new Properties();
-    try {
-        prop.load(UserPosts.class.getClassLoader().getResourceAsStream("config.properties"));
-        baseURI=prop.getProperty("baseURI");
-        System.out.println("Base URI:"+baseURI);
-        endPoint=baseURI+"/"+resource;
-        System.out.println("User Post end point: "+endPoint);
-    } catch (IOException e) {
-        throw new RuntimeException(e);
+    baseSteps=new  BaseSteps();
+        endPoint=baseSteps.getBaseURI()+"/"+resource;
+        System.out.println("========================User Post end point: "+endPoint);
     }
-}
+
 public void hitEndpointWithGetMethod(){
     response= given().log().all().get(endPoint);
 }
@@ -67,5 +61,22 @@ public void verifyPostObjectCreation(String id,String title, String author){
 //    Assert.assertTrue("author is not found",response.getBody().asString().contains(author));
     System.out.println("================Post object is created and expected values are matching with API response.....");
 
+}
+public void hitEndPointWithPutMethod(String id, String title,String author){
+    UpdateByIdUsingPutEndPoint=endPoint+"/"+id;
+    System.out.println("==========Put By id end point is:"+UpdateByIdUsingPutEndPoint);
+    HashMap<String,String>putRequestBody= new HashMap<String,String>();
+    putRequestBody.put("id",id);
+    putRequestBody.put("title",title);
+    putRequestBody.put("author",author);
+    response=given().log().all().when().contentType(ContentType.JSON).body(putRequestBody).put(UpdateByIdUsingPutEndPoint);
+    System.out.println("=============Hit the end point with put Method call");
+}
+public void verifyPutMethodUpdates(String id, String title,String author){
+    JsonPath jsonPath= new JsonPath(response.asString());
+    Assert.assertEquals("put id is not found",id,jsonPath.get("id"));
+    Assert.assertEquals("title  is not found",title,jsonPath.get("title"));
+    Assert.assertEquals("author  is not found",author,jsonPath.get("author"));
+    System.out.println("=======Put has updated the mentioned object");
 }
 }

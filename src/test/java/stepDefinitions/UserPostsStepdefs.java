@@ -38,4 +38,14 @@ public class UserPostsStepdefs {
     public void apiShouldReturnCreatedDataInResponseBodyWithIdAndTitleAndAuthor(String id, String title,String author) {
     uPosts.verifyPostObjectCreation(id,title,author);
     }
+
+    @When("user hits the end point with put method by passing valid {string} and {string} and {string}")
+    public void userHitsTheEndPointWithPutMethodByPassingValidIdAndTitleAndAuthor(String id, String title,String author) {
+    uPosts.hitEndPointWithPutMethod( id,  title, author);
+    }
+
+    @And("API should return updated data in response body with {string} and {string} and {string}")
+    public void apiShouldReturnUpdatedDataInResponseBodyWithIdAndTitleAndAuthor(String id, String title,String author) {
+        uPosts.verifyPutMethodUpdates(id,  title, author);
+    }
 }
