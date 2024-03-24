@@ -31,12 +31,21 @@ Feature: Verify User Posts end Point for all supported http methods
 #      |posts    |33|RestAssured Framework Designing|qaautomationclasses-Smruti|200|
 
 #######PATCH
-  Scenario Outline: Update an user post through http PATCH method
+#  Scenario Outline: Update an user post through http PATCH method
+#    Given user sets the api end point with '<resource>'
+#    When user hits the end point with patch method by passing valid '<id>'  and '<author>'
+#    Then api should return valid '<statusCode>' in response
+#    And API should return updated patch data in response body with '<id>' and '<author>'
+#    And Response should be in json format
+#    Examples:
+#      | resource |id|author|statusCode|
+#      |posts    |33|Smrutiranjan|200|
+###############################DELETE
+  Scenario Outline: delete an user post through http DELETE method
     Given user sets the api end point with '<resource>'
-    When user hits the end point with patch method by passing valid '<id>'  and '<author>'
+    When user hits the end point with delete method by passing valid '<id>'
     Then api should return valid '<statusCode>' in response
-    And API should return updated patch data in response body with '<id>' and '<author>'
-    And Response should be in json format
+    And API should return not found for get call made to deleted object with '<id>'
     Examples:
-      | resource |id|author|statusCode|
-      |posts    |33|Smrutiranjan|200|
+      | resource |id|statusCode|
+      |posts    |30|200|

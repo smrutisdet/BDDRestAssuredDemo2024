@@ -58,4 +58,13 @@ uPosts.hitEndPointWithPatchMethod(id,author);
     public void apiShouldReturnUpdatedPatchDataInResponseBodyWithIdAndAuthor(String id,String author) {
         uPosts.verifyPatchMethodUpdates(id,author);
     }
+
+    @When("user hits the end point with delete method by passing valid {string}")
+    public void userHitsTheEndPointWithDeleteMethodByPassingValidId(String id) {
+uPosts.hitEndpointWithDeleteMethod(id);
+    }
+        @And("API should return not found for get call made to deleted object with {string}")
+    public void apiShouldReturnNotFoundForGetCallMadeToDeletedObjectWithId(String id) {
+        uPosts.verifyObjectIsDeleted(id);
+    }
 }

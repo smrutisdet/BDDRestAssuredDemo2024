@@ -19,6 +19,7 @@ public class UserPosts {
     private BaseSteps baseSteps;
     private String UpdateByIdUsingPutEndPoint;
     private String UpdateByIdUsingPatchEndPoint;
+    private String deleteByIdUsingDeleteMethodEndPoint;
 
     public void setUserPostEndPoint(String resource) {
         baseSteps = new BaseSteps();
@@ -102,5 +103,14 @@ public void verifyPatchMethodUpdates(String id, String author){
     Assert.assertEquals("patch id is not found", id, jsonPath.get("id"));
     Assert.assertEquals("author  is not found", author, jsonPath.get("author"));
     System.out.println("=======Patch has updated the mentioned object");
+}
+public void hitEndpointWithDeleteMethod(String id){
+    deleteByIdUsingDeleteMethodEndPoint= endPoint + "/" + id;
+    response = given().log().all().when().delete(deleteByIdUsingDeleteMethodEndPoint);
+    System.out.println("==========response after delete call is:"+response.asString());
+}
+public void verifyObjectIsDeleted(String id){
+    response = given().log().all().when().get(deleteByIdUsingDeleteMethodEndPoint);
+    Assert.assertEquals("Object is not deleted",404,response.getStatusCode());
 }
 }
