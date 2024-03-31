@@ -127,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711292718212</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implement Background and inline data pass from feature to Step def">
+      <option name="closed" value="true" />
+      <created>1711886456115</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711886456115</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +155,7 @@
     <MESSAGE value="automate userPosts feature put call  and validate response through JSON Path" />
     <MESSAGE value="automate userPosts feature patch  call  and validate response through JSON Path" />
     <MESSAGE value="automate userPosts feature delete  call  and validate response" />
-    <option name="LAST_COMMIT_MESSAGE" value="automate userPosts feature delete  call  and validate response" />
+    <MESSAGE value="implement Background and inline data pass from feature to Step def" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement Background and inline data pass from feature to Step def" />
   </component>
 </project>
