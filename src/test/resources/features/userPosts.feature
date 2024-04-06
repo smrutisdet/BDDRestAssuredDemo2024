@@ -38,10 +38,10 @@ Feature: Verify User Posts end Point for all supported http method
     Examples:
       | statusCode |
       | 200        |
-#    @negative
-#    Examples:
-#      | statusCode |
-#      | 201        |
+    @negative
+    Examples:
+      | statusCode |
+      | 201        |
   ##############################################################
   Scenario Outline:Verify the get method call & response-5
     When user hits the end point with get method

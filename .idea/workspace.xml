@@ -36,7 +36,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "JUnit.CucumberRunner.executor": "Run",
+    "JUnit.CucumberRunnerTest.executor": "Run",
     "Maven.MavenRunner.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -52,7 +54,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Maven.MavenRunner">
+  <component name="RunManager" selected="JUnit.CucumberRunnerTest">
     <configuration name="CucumberRunnerTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="BDDRestAssuredDemo2024" />
       <extension name="coverage">
@@ -185,7 +187,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712380393669</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="implement log4j2">
+      <option name="closed" value="true" />
+      <created>1712395279957</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712395279957</updated>
+    </task>
+    <task id="LOCAL-00010" summary="implement log4j2">
+      <option name="closed" value="true" />
+      <created>1712395292524</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712395292524</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +226,7 @@
     <MESSAGE value="implement Background and inline data pass from feature to Step def" />
     <MESSAGE value="implement tags" />
     <MESSAGE value="implement maven runner and overide tags from commnd line" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement maven runner and overide tags from commnd line" />
+    <MESSAGE value="implement log4j2" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement log4j2" />
   </component>
 </project>
