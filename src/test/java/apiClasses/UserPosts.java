@@ -1,18 +1,20 @@
 package apiClasses;
-
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Assert;
 import pojoClasses.UserPostsPojo;
 import utilities.BaseSteps;
-
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Properties;
 import static io.restassured.RestAssured.given;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+
 public class UserPosts {
     private Properties prop;
+    private Logger log;
     private String endPoint;
     private Response response;
     private int statusCode;
@@ -22,9 +24,10 @@ public class UserPosts {
     private String deleteByIdUsingDeleteMethodEndPoint;
 
     public void setUserPostEndPoint(String resource) {
+        log=LogManager.getLogger(this.getClass().getName());
         baseSteps = new BaseSteps();
         endPoint = baseSteps.getBaseURI() + "/" + resource;
-        System.out.println("========================User Post end point: " + endPoint);
+        log.info("========================User Post end point: " + endPoint);
     }
 
     public void hitEndpointWithGetMethod() {
@@ -36,13 +39,13 @@ public class UserPosts {
         System.out.println("============Response status code:" + statusCode);
         Assert.assertTrue(statusCode == expectedStatusCode);
         //Assert.assertEquals(statusCode,expectedStatusCode);
-        System.out.println("=====================Expected status code is matching with actual status code");
+        log.info("=====================Expected status code is matching with actual status code");
     }
 
     public void verifyResponseFormat() {
         response.then().assertThat().contentType(ContentType.JSON);
-        System.out.println("===================API response is in JSON format");
-        System.out.println("==================API response in String is :" + response.asString());
+        log.info("===================API response is in JSON format");
+        log.info("==================API response in String is :" + response.asString());
     }
 
     public void hitEndPointWithHTTPPostMethod(String id, String title, String author) {
@@ -55,7 +58,7 @@ public class UserPosts {
     postRequestBody.setTitle(title);
     postRequestBody.setAuthor(author);*/
         response = given().log().all().when().contentType(ContentType.JSON).body(postRequestBody).post(endPoint);
-        System.out.println("=================User hit user post end point with post http method");
+        log.info("=================User hit user post end point with post http method");
     }
 
     public void verifyPostObjectCreation(String id, String title, String author) {
@@ -66,7 +69,7 @@ public class UserPosts {
 //    Assert.assertTrue("post id is not found",response.getBody().asString().contains(id));
 //    Assert.assertTrue("title is not found",response.getBody().asString().contains(title));
 //    Assert.assertTrue("author is not found",response.getBody().asString().contains(author));
-        System.out.println("================Post object is created and expected values are matching with API response.....");
+        log.info("================Post object is created and expected values are matching with API response.....");
 
     }
 
@@ -78,7 +81,7 @@ public class UserPosts {
         putRequestBody.put("title", title);
         putRequestBody.put("author", author);
         response = given().log().all().when().contentType(ContentType.JSON).body(putRequestBody).put(UpdateByIdUsingPutEndPoint);
-        System.out.println("=============Hit the end point with put Method call");
+        log.info("=============Hit the end point with put Method call");
     }
 
     public void verifyPutMethodUpdates(String id, String title, String author) {
@@ -87,7 +90,7 @@ public class UserPosts {
             Assert.assertEquals("put id is not found", id, jsonPath.get("id"));
             Assert.assertEquals("title  is not found", title, jsonPath.get("title"));
             Assert.assertEquals("author  is not found", author, jsonPath.get("author"));
-            System.out.println("=======Put has updated the mentioned object");
+            log.info("=======Put has updated the mentioned object");
         }
     }
     public void hitEndPointWithPatchMethod(String id, String author){
@@ -95,19 +98,19 @@ public class UserPosts {
         patchRequestBody.put("author",author);
         UpdateByIdUsingPatchEndPoint=endPoint + "/" + id;
         response = given().log().all().when().contentType(ContentType.JSON).body(patchRequestBody).patch(UpdateByIdUsingPatchEndPoint);
-        System.out.println("=============Hit the end point with patch Method call");
+        log.info("=============Hit the end point with patch Method call");
 
 }
 public void verifyPatchMethodUpdates(String id, String author){
         JsonPath jsonPath= new JsonPath(response.asString());
     Assert.assertEquals("patch id is not found", id, jsonPath.get("id"));
     Assert.assertEquals("author  is not found", author, jsonPath.get("author"));
-    System.out.println("=======Patch has updated the mentioned object");
+    log.info("=======Patch has updated the mentioned object");
 }
 public void hitEndpointWithDeleteMethod(String id){
     deleteByIdUsingDeleteMethodEndPoint= endPoint + "/" + id;
     response = given().log().all().when().delete(deleteByIdUsingDeleteMethodEndPoint);
-    System.out.println("==========response after delete call is:"+response.asString());
+    log.info("==========response after delete call is:"+response.asString());
 }
 public void verifyObjectIsDeleted(String id){
     response = given().log().all().when().get(deleteByIdUsingDeleteMethodEndPoint);

@@ -1,0 +1,1028 @@
+14:46:16.479 [main]INFO  utilities.BaseSteps - Base URI:http://localhost:3000
+14:46:16.488 [main]INFO  apiClasses.UserPosts - ========================User Post end point: http://localhost:3000/posts
+14:46:19.064 [main]INFO  apiClasses.UserPosts - =====================Expected status code is matching with actual status code
+14:46:19.085 [main]INFO  apiClasses.UserPosts - ===================API response is in JSON format
+14:46:19.110 [main]INFO  apiClasses.UserPosts - ==================API response in String is :[
+  {
+    "id": "1",
+    "title": "Change Post1 by put",
+    "author": "By Author 1"
+  },
+  {
+    "id": "2",
+    "title": "Post2",
+    "author": "Test Author2"
+  },
+  {
+    "id": "3",
+    "title": "War Coverage",
+    "author": "Chun Li"
+  },
+  {
+    "id": "4",
+    "title": "QA AUTOMATION CLASSES",
+    "author": "SMRUTI"
+  },
+  {
+    "id": "5",
+    "title": "JSON Server",
+    "author": "ABC"
+  },
+  {
+    "id": "6",
+    "title": "New Moon",
+    "author": "Seith"
+  },
+  {
+    "id": "7",
+    "title": "Half Moon",
+    "author": "Seith"
+  },
+  {
+    "id": "21",
+    "title": "Junior Level Books Introduction to Computer",
+    "author": "Amit Garg"
+  },
+  {
+    "id": "22",
+    "title": "Publish News Letter",
+    "author": "Amit Garg"
+  },
+  {
+    "id": "23",
+    "title": "Client Server Computing",
+    "author": "Lalit Kumar"
+  },
+  {
+    "id": "24",
+    "title": "Mobile Computing",
+    "author": "Vinay Kumar Singhal"
+  },
+  {
+    "id": "25",
+    "title": "Data Structure Using C",
+    "author": "Sharad Kumar Verma"
+  },
+  {
+    "id": "26",
+    "title": "Computer Networks",
+    "author": "Saurabh Singhal"
+  },
+  {
+    "id": "27",
+    "title": "CBOT",
+    "author": "Gunjan Verma"
+  },
+  {
+    "id": "8",
+    "title": "The Story Of My Experiments With The Truth",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": "9",
+    "title": "The Guide",
+    "author": "R.K. Narayan"
+  },
+  {
+    "id": "10",
+    "title": "A Fine Balance",
+    "author": "Rohinton Mistry"
+  },
+  {
+    "id": "11",
+    "title": "Midnight’s Children",
+    "author": "Salman Rushdie"
+  },
+  {
+    "id": "12",
+    "title": "A Suitable Boy",
+    "author": "Vikram Seth"
+  },
+  {
+    "id": "13",
+    "title": "God of Small Things",
+    "author": "Arundhati Roy"
+  },
+  {
+    "id": "14",
+    "title": "The Glass Palace",
+    "author": "Amitav Ghosh"
+  },
+  {
+    "id": "15",
+    "title": "The Inheritance of Loss",
+    "author": "Kiran Desai"
+  },
+  {
+    "id": "16",
+    "title": "The Private Life of an Indian Prince",
+    "author": "Mulk Raj Anand"
+  },
+  {
+    "id": "17",
+    "title": "Red Earth and Pouring Rain",
+    "author": "Vikram Chandra"
+  },
+  {
+    "id": "18",
+    "title": "Maximum City",
+    "author": "Suketu Mehta"
+  },
+  {
+    "id": "19",
+    "title": "Gitanjali",
+    "author": "Rabindranath Tagore"
+  },
+  {
+    "id": "20",
+    "title": "Rich Like Us-V2.0",
+    "author": "Nayantara Sehgal"
+  }
+]
+14:46:19.128 [main]INFO  utilities.BaseSteps - Base URI:http://localhost:3000
+14:46:19.129 [main]INFO  apiClasses.UserPosts - ========================User Post end point: http://localhost:3000/posts
+14:46:19.152 [main]INFO  apiClasses.UserPosts - =====================Expected status code is matching with actual status code
+14:46:19.154 [main]INFO  apiClasses.UserPosts - ===================API response is in JSON format
+14:46:19.155 [main]INFO  apiClasses.UserPosts - ==================API response in String is :[
+  {
+    "id": "1",
+    "title": "Change Post1 by put",
+    "author": "By Author 1"
+  },
+  {
+    "id": "2",
+    "title": "Post2",
+    "author": "Test Author2"
+  },
+  {
+    "id": "3",
+    "title": "War Coverage",
+    "author": "Chun Li"
+  },
+  {
+    "id": "4",
+    "title": "QA AUTOMATION CLASSES",
+    "author": "SMRUTI"
+  },
+  {
+    "id": "5",
+    "title": "JSON Server",
+    "author": "ABC"
+  },
+  {
+    "id": "6",
+    "title": "New Moon",
+    "author": "Seith"
+  },
+  {
+    "id": "7",
+    "title": "Half Moon",
+    "author": "Seith"
+  },
+  {
+    "id": "21",
+    "title": "Junior Level Books Introduction to Computer",
+    "author": "Amit Garg"
+  },
+  {
+    "id": "22",
+    "title": "Publish News Letter",
+    "author": "Amit Garg"
+  },
+  {
+    "id": "23",
+    "title": "Client Server Computing",
+    "author": "Lalit Kumar"
+  },
+  {
+    "id": "24",
+    "title": "Mobile Computing",
+    "author": "Vinay Kumar Singhal"
+  },
+  {
+    "id": "25",
+    "title": "Data Structure Using C",
+    "author": "Sharad Kumar Verma"
+  },
+  {
+    "id": "26",
+    "title": "Computer Networks",
+    "author": "Saurabh Singhal"
+  },
+  {
+    "id": "27",
+    "title": "CBOT",
+    "author": "Gunjan Verma"
+  },
+  {
+    "id": "8",
+    "title": "The Story Of My Experiments With The Truth",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": "9",
+    "title": "The Guide",
+    "author": "R.K. Narayan"
+  },
+  {
+    "id": "10",
+    "title": "A Fine Balance",
+    "author": "Rohinton Mistry"
+  },
+  {
+    "id": "11",
+    "title": "Midnight’s Children",
+    "author": "Salman Rushdie"
+  },
+  {
+    "id": "12",
+    "title": "A Suitable Boy",
+    "author": "Vikram Seth"
+  },
+  {
+    "id": "13",
+    "title": "God of Small Things",
+    "author": "Arundhati Roy"
+  },
+  {
+    "id": "14",
+    "title": "The Glass Palace",
+    "author": "Amitav Ghosh"
+  },
+  {
+    "id": "15",
+    "title": "The Inheritance of Loss",
+    "author": "Kiran Desai"
+  },
+  {
+    "id": "16",
+    "title": "The Private Life of an Indian Prince",
+    "author": "Mulk Raj Anand"
+  },
+  {
+    "id": "17",
+    "title": "Red Earth and Pouring Rain",
+    "author": "Vikram Chandra"
+  },
+  {
+    "id": "18",
+    "title": "Maximum City",
+    "author": "Suketu Mehta"
+  },
+  {
+    "id": "19",
+    "title": "Gitanjali",
+    "author": "Rabindranath Tagore"
+  },
+  {
+    "id": "20",
+    "title": "Rich Like Us-V2.0",
+    "author": "Nayantara Sehgal"
+  }
+]
+14:50:19.812 [main]INFO  utilities.BaseSteps - Base URI:http://localhost:3000
+14:50:19.828 [main]INFO  apiClasses.UserPosts - ========================User Post end point: http://localhost:3000/posts
+14:50:22.604 [main]INFO  apiClasses.UserPosts - =====================Expected status code is matching with actual status code
+14:50:22.622 [main]INFO  apiClasses.UserPosts - ===================API response is in JSON format
+14:50:22.643 [main]INFO  apiClasses.UserPosts - ==================API response in String is :[
+  {
+    "id": "1",
+    "title": "Change Post1 by put",
+    "author": "By Author 1"
+  },
+  {
+    "id": "2",
+    "title": "Post2",
+    "author": "Test Author2"
+  },
+  {
+    "id": "3",
+    "title": "War Coverage",
+    "author": "Chun Li"
+  },
+  {
+    "id": "4",
+    "title": "QA AUTOMATION CLASSES",
+    "author": "SMRUTI"
+  },
+  {
+    "id": "5",
+    "title": "JSON Server",
+    "author": "ABC"
+  },
+  {
+    "id": "6",
+    "title": "New Moon",
+    "author": "Seith"
+  },
+  {
+    "id": "7",
+    "title": "Half Moon",
+    "author": "Seith"
+  },
+  {
+    "id": "21",
+    "title": "Junior Level Books Introduction to Computer",
+    "author": "Amit Garg"
+  },
+  {
+    "id": "22",
+    "title": "Publish News Letter",
+    "author": "Amit Garg"
+  },
+  {
+    "id": "23",
+    "title": "Client Server Computing",
+    "author": "Lalit Kumar"
+  },
+  {
+    "id": "24",
+    "title": "Mobile Computing",
+    "author": "Vinay Kumar Singhal"
+  },
+  {
+    "id": "25",
+    "title": "Data Structure Using C",
+    "author": "Sharad Kumar Verma"
+  },
+  {
+    "id": "26",
+    "title": "Computer Networks",
+    "author": "Saurabh Singhal"
+  },
+  {
+    "id": "27",
+    "title": "CBOT",
+    "author": "Gunjan Verma"
+  },
+  {
+    "id": "8",
+    "title": "The Story Of My Experiments With The Truth",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": "9",
+    "title": "The Guide",
+    "author": "R.K. Narayan"
+  },
+  {
+    "id": "10",
+    "title": "A Fine Balance",
+    "author": "Rohinton Mistry"
+  },
+  {
+    "id": "11",
+    "title": "Midnight’s Children",
+    "author": "Salman Rushdie"
+  },
+  {
+    "id": "12",
+    "title": "A Suitable Boy",
+    "author": "Vikram Seth"
+  },
+  {
+    "id": "13",
+    "title": "God of Small Things",
+    "author": "Arundhati Roy"
+  },
+  {
+    "id": "14",
+    "title": "The Glass Palace",
+    "author": "Amitav Ghosh"
+  },
+  {
+    "id": "15",
+    "title": "The Inheritance of Loss",
+    "author": "Kiran Desai"
+  },
+  {
+    "id": "16",
+    "title": "The Private Life of an Indian Prince",
+    "author": "Mulk Raj Anand"
+  },
+  {
+    "id": "17",
+    "title": "Red Earth and Pouring Rain",
+    "author": "Vikram Chandra"
+  },
+  {
+    "id": "18",
+    "title": "Maximum City",
+    "author": "Suketu Mehta"
+  },
+  {
+    "id": "19",
+    "title": "Gitanjali",
+    "author": "Rabindranath Tagore"
+  },
+  {
+    "id": "20",
+    "title": "Rich Like Us-V2.0",
+    "author": "Nayantara Sehgal"
+  }
+]
+14:50:22.658 [main]INFO  utilities.BaseSteps - Base URI:http://localhost:3000
+14:50:22.659 [main]INFO  apiClasses.UserPosts - ========================User Post end point: http://localhost:3000/posts
+14:50:22.677 [main]INFO  apiClasses.UserPosts - =====================Expected status code is matching with actual status code
+14:50:22.678 [main]INFO  apiClasses.UserPosts - ===================API response is in JSON format
+14:50:22.679 [main]INFO  apiClasses.UserPosts - ==================API response in String is :[
+  {
+    "id": "1",
+    "title": "Change Post1 by put",
+    "author": "By Author 1"
+  },
+  {
+    "id": "2",
+    "title": "Post2",
+    "author": "Test Author2"
+  },
+  {
+    "id": "3",
+    "title": "War Coverage",
+    "author": "Chun Li"
+  },
+  {
+    "id": "4",
+    "title": "QA AUTOMATION CLASSES",
+    "author": "SMRUTI"
+  },
+  {
+    "id": "5",
+    "title": "JSON Server",
+    "author": "ABC"
+  },
+  {
+    "id": "6",
+    "title": "New Moon",
+    "author": "Seith"
+  },
+  {
+    "id": "7",
+    "title": "Half Moon",
+    "author": "Seith"
+  },
+  {
+    "id": "21",
+    "title": "Junior Level Books Introduction to Computer",
+    "author": "Amit Garg"
+  },
+  {
+    "id": "22",
+    "title": "Publish News Letter",
+    "author": "Amit Garg"
+  },
+  {
+    "id": "23",
+    "title": "Client Server Computing",
+    "author": "Lalit Kumar"
+  },
+  {
+    "id": "24",
+    "title": "Mobile Computing",
+    "author": "Vinay Kumar Singhal"
+  },
+  {
+    "id": "25",
+    "title": "Data Structure Using C",
+    "author": "Sharad Kumar Verma"
+  },
+  {
+    "id": "26",
+    "title": "Computer Networks",
+    "author": "Saurabh Singhal"
+  },
+  {
+    "id": "27",
+    "title": "CBOT",
+    "author": "Gunjan Verma"
+  },
+  {
+    "id": "8",
+    "title": "The Story Of My Experiments With The Truth",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": "9",
+    "title": "The Guide",
+    "author": "R.K. Narayan"
+  },
+  {
+    "id": "10",
+    "title": "A Fine Balance",
+    "author": "Rohinton Mistry"
+  },
+  {
+    "id": "11",
+    "title": "Midnight’s Children",
+    "author": "Salman Rushdie"
+  },
+  {
+    "id": "12",
+    "title": "A Suitable Boy",
+    "author": "Vikram Seth"
+  },
+  {
+    "id": "13",
+    "title": "God of Small Things",
+    "author": "Arundhati Roy"
+  },
+  {
+    "id": "14",
+    "title": "The Glass Palace",
+    "author": "Amitav Ghosh"
+  },
+  {
+    "id": "15",
+    "title": "The Inheritance of Loss",
+    "author": "Kiran Desai"
+  },
+  {
+    "id": "16",
+    "title": "The Private Life of an Indian Prince",
+    "author": "Mulk Raj Anand"
+  },
+  {
+    "id": "17",
+    "title": "Red Earth and Pouring Rain",
+    "author": "Vikram Chandra"
+  },
+  {
+    "id": "18",
+    "title": "Maximum City",
+    "author": "Suketu Mehta"
+  },
+  {
+    "id": "19",
+    "title": "Gitanjali",
+    "author": "Rabindranath Tagore"
+  },
+  {
+    "id": "20",
+    "title": "Rich Like Us-V2.0",
+    "author": "Nayantara Sehgal"
+  }
+]
+14:50:22.693 [main]INFO  utilities.BaseSteps - Base URI:http://localhost:3000
+14:50:22.693 [main]INFO  apiClasses.UserPosts - ========================User Post end point: http://localhost:3000/posts
+14:50:22.715 [main]INFO  apiClasses.UserPosts - =====================Expected status code is matching with actual status code
+14:50:22.717 [main]INFO  apiClasses.UserPosts - ===================API response is in JSON format
+14:50:22.718 [main]INFO  apiClasses.UserPosts - ==================API response in String is :[
+  {
+    "id": "1",
+    "title": "Change Post1 by put",
+    "author": "By Author 1"
+  },
+  {
+    "id": "2",
+    "title": "Post2",
+    "author": "Test Author2"
+  },
+  {
+    "id": "3",
+    "title": "War Coverage",
+    "author": "Chun Li"
+  },
+  {
+    "id": "4",
+    "title": "QA AUTOMATION CLASSES",
+    "author": "SMRUTI"
+  },
+  {
+    "id": "5",
+    "title": "JSON Server",
+    "author": "ABC"
+  },
+  {
+    "id": "6",
+    "title": "New Moon",
+    "author": "Seith"
+  },
+  {
+    "id": "7",
+    "title": "Half Moon",
+    "author": "Seith"
+  },
+  {
+    "id": "21",
+    "title": "Junior Level Books Introduction to Computer",
+    "author": "Amit Garg"
+  },
+  {
+    "id": "22",
+    "title": "Publish News Letter",
+    "author": "Amit Garg"
+  },
+  {
+    "id": "23",
+    "title": "Client Server Computing",
+    "author": "Lalit Kumar"
+  },
+  {
+    "id": "24",
+    "title": "Mobile Computing",
+    "author": "Vinay Kumar Singhal"
+  },
+  {
+    "id": "25",
+    "title": "Data Structure Using C",
+    "author": "Sharad Kumar Verma"
+  },
+  {
+    "id": "26",
+    "title": "Computer Networks",
+    "author": "Saurabh Singhal"
+  },
+  {
+    "id": "27",
+    "title": "CBOT",
+    "author": "Gunjan Verma"
+  },
+  {
+    "id": "8",
+    "title": "The Story Of My Experiments With The Truth",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": "9",
+    "title": "The Guide",
+    "author": "R.K. Narayan"
+  },
+  {
+    "id": "10",
+    "title": "A Fine Balance",
+    "author": "Rohinton Mistry"
+  },
+  {
+    "id": "11",
+    "title": "Midnight’s Children",
+    "author": "Salman Rushdie"
+  },
+  {
+    "id": "12",
+    "title": "A Suitable Boy",
+    "author": "Vikram Seth"
+  },
+  {
+    "id": "13",
+    "title": "God of Small Things",
+    "author": "Arundhati Roy"
+  },
+  {
+    "id": "14",
+    "title": "The Glass Palace",
+    "author": "Amitav Ghosh"
+  },
+  {
+    "id": "15",
+    "title": "The Inheritance of Loss",
+    "author": "Kiran Desai"
+  },
+  {
+    "id": "16",
+    "title": "The Private Life of an Indian Prince",
+    "author": "Mulk Raj Anand"
+  },
+  {
+    "id": "17",
+    "title": "Red Earth and Pouring Rain",
+    "author": "Vikram Chandra"
+  },
+  {
+    "id": "18",
+    "title": "Maximum City",
+    "author": "Suketu Mehta"
+  },
+  {
+    "id": "19",
+    "title": "Gitanjali",
+    "author": "Rabindranath Tagore"
+  },
+  {
+    "id": "20",
+    "title": "Rich Like Us-V2.0",
+    "author": "Nayantara Sehgal"
+  }
+]
+14:50:22.731 [main]INFO  utilities.BaseSteps - Base URI:http://localhost:3000
+14:50:22.732 [main]INFO  apiClasses.UserPosts - ========================User Post end point: http://localhost:3000/posts
+14:50:22.760 [main]INFO  apiClasses.UserPosts - =====================Expected status code is matching with actual status code
+14:50:22.762 [main]INFO  apiClasses.UserPosts - ===================API response is in JSON format
+14:50:22.762 [main]INFO  apiClasses.UserPosts - ==================API response in String is :[
+  {
+    "id": "1",
+    "title": "Change Post1 by put",
+    "author": "By Author 1"
+  },
+  {
+    "id": "2",
+    "title": "Post2",
+    "author": "Test Author2"
+  },
+  {
+    "id": "3",
+    "title": "War Coverage",
+    "author": "Chun Li"
+  },
+  {
+    "id": "4",
+    "title": "QA AUTOMATION CLASSES",
+    "author": "SMRUTI"
+  },
+  {
+    "id": "5",
+    "title": "JSON Server",
+    "author": "ABC"
+  },
+  {
+    "id": "6",
+    "title": "New Moon",
+    "author": "Seith"
+  },
+  {
+    "id": "7",
+    "title": "Half Moon",
+    "author": "Seith"
+  },
+  {
+    "id": "21",
+    "title": "Junior Level Books Introduction to Computer",
+    "author": "Amit Garg"
+  },
+  {
+    "id": "22",
+    "title": "Publish News Letter",
+    "author": "Amit Garg"
+  },
+  {
+    "id": "23",
+    "title": "Client Server Computing",
+    "author": "Lalit Kumar"
+  },
+  {
+    "id": "24",
+    "title": "Mobile Computing",
+    "author": "Vinay Kumar Singhal"
+  },
+  {
+    "id": "25",
+    "title": "Data Structure Using C",
+    "author": "Sharad Kumar Verma"
+  },
+  {
+    "id": "26",
+    "title": "Computer Networks",
+    "author": "Saurabh Singhal"
+  },
+  {
+    "id": "27",
+    "title": "CBOT",
+    "author": "Gunjan Verma"
+  },
+  {
+    "id": "8",
+    "title": "The Story Of My Experiments With The Truth",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": "9",
+    "title": "The Guide",
+    "author": "R.K. Narayan"
+  },
+  {
+    "id": "10",
+    "title": "A Fine Balance",
+    "author": "Rohinton Mistry"
+  },
+  {
+    "id": "11",
+    "title": "Midnight’s Children",
+    "author": "Salman Rushdie"
+  },
+  {
+    "id": "12",
+    "title": "A Suitable Boy",
+    "author": "Vikram Seth"
+  },
+  {
+    "id": "13",
+    "title": "God of Small Things",
+    "author": "Arundhati Roy"
+  },
+  {
+    "id": "14",
+    "title": "The Glass Palace",
+    "author": "Amitav Ghosh"
+  },
+  {
+    "id": "15",
+    "title": "The Inheritance of Loss",
+    "author": "Kiran Desai"
+  },
+  {
+    "id": "16",
+    "title": "The Private Life of an Indian Prince",
+    "author": "Mulk Raj Anand"
+  },
+  {
+    "id": "17",
+    "title": "Red Earth and Pouring Rain",
+    "author": "Vikram Chandra"
+  },
+  {
+    "id": "18",
+    "title": "Maximum City",
+    "author": "Suketu Mehta"
+  },
+  {
+    "id": "19",
+    "title": "Gitanjali",
+    "author": "Rabindranath Tagore"
+  },
+  {
+    "id": "20",
+    "title": "Rich Like Us-V2.0",
+    "author": "Nayantara Sehgal"
+  }
+]
+14:50:22.777 [main]INFO  utilities.BaseSteps - Base URI:http://localhost:3000
+14:50:22.778 [main]INFO  apiClasses.UserPosts - ========================User Post end point: http://localhost:3000/posts
+14:50:22.807 [main]INFO  apiClasses.UserPosts - =====================Expected status code is matching with actual status code
+14:50:22.809 [main]INFO  apiClasses.UserPosts - ===================API response is in JSON format
+14:50:22.810 [main]INFO  apiClasses.UserPosts - ==================API response in String is :[
+  {
+    "id": "1",
+    "title": "Change Post1 by put",
+    "author": "By Author 1"
+  },
+  {
+    "id": "2",
+    "title": "Post2",
+    "author": "Test Author2"
+  },
+  {
+    "id": "3",
+    "title": "War Coverage",
+    "author": "Chun Li"
+  },
+  {
+    "id": "4",
+    "title": "QA AUTOMATION CLASSES",
+    "author": "SMRUTI"
+  },
+  {
+    "id": "5",
+    "title": "JSON Server",
+    "author": "ABC"
+  },
+  {
+    "id": "6",
+    "title": "New Moon",
+    "author": "Seith"
+  },
+  {
+    "id": "7",
+    "title": "Half Moon",
+    "author": "Seith"
+  },
+  {
+    "id": "21",
+    "title": "Junior Level Books Introduction to Computer",
+    "author": "Amit Garg"
+  },
+  {
+    "id": "22",
+    "title": "Publish News Letter",
+    "author": "Amit Garg"
+  },
+  {
+    "id": "23",
+    "title": "Client Server Computing",
+    "author": "Lalit Kumar"
+  },
+  {
+    "id": "24",
+    "title": "Mobile Computing",
+    "author": "Vinay Kumar Singhal"
+  },
+  {
+    "id": "25",
+    "title": "Data Structure Using C",
+    "author": "Sharad Kumar Verma"
+  },
+  {
+    "id": "26",
+    "title": "Computer Networks",
+    "author": "Saurabh Singhal"
+  },
+  {
+    "id": "27",
+    "title": "CBOT",
+    "author": "Gunjan Verma"
+  },
+  {
+    "id": "8",
+    "title": "The Story Of My Experiments With The Truth",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "id": "9",
+    "title": "The Guide",
+    "author": "R.K. Narayan"
+  },
+  {
+    "id": "10",
+    "title": "A Fine Balance",
+    "author": "Rohinton Mistry"
+  },
+  {
+    "id": "11",
+    "title": "Midnight’s Children",
+    "author": "Salman Rushdie"
+  },
+  {
+    "id": "12",
+    "title": "A Suitable Boy",
+    "author": "Vikram Seth"
+  },
+  {
+    "id": "13",
+    "title": "God of Small Things",
+    "author": "Arundhati Roy"
+  },
+  {
+    "id": "14",
+    "title": "The Glass Palace",
+    "author": "Amitav Ghosh"
+  },
+  {
+    "id": "15",
+    "title": "The Inheritance of Loss",
+    "author": "Kiran Desai"
+  },
+  {
+    "id": "16",
+    "title": "The Private Life of an Indian Prince",
+    "author": "Mulk Raj Anand"
+  },
+  {
+    "id": "17",
+    "title": "Red Earth and Pouring Rain",
+    "author": "Vikram Chandra"
+  },
+  {
+    "id": "18",
+    "title": "Maximum City",
+    "author": "Suketu Mehta"
+  },
+  {
+    "id": "19",
+    "title": "Gitanjali",
+    "author": "Rabindranath Tagore"
+  },
+  {
+    "id": "20",
+    "title": "Rich Like Us-V2.0",
+    "author": "Nayantara Sehgal"
+  }
+]
+14:50:22.826 [main]INFO  utilities.BaseSteps - Base URI:http://localhost:3000
+14:50:22.827 [main]INFO  apiClasses.UserPosts - ========================User Post end point: http://localhost:3000/posts
+14:50:23.455 [main]INFO  apiClasses.UserPosts - =================User hit user post end point with post http method
+14:50:23.456 [main]INFO  apiClasses.UserPosts - =====================Expected status code is matching with actual status code
+14:50:24.676 [main]INFO  apiClasses.UserPosts - ================Post object is created and expected values are matching with API response.....
+14:50:24.677 [main]INFO  apiClasses.UserPosts - ===================API response is in JSON format
+14:50:24.677 [main]INFO  apiClasses.UserPosts - ==================API response in String is :{
+  "id": "30",
+  "author": "Smruti",
+  "title": "Transforming from QA to SDET"
+}
+14:50:24.684 [main]INFO  utilities.BaseSteps - Base URI:http://localhost:3000
+14:50:24.685 [main]INFO  apiClasses.UserPosts - ========================User Post end point: http://localhost:3000/posts
+14:50:24.718 [main]INFO  apiClasses.UserPosts - =============Hit the end point with put Method call
+14:50:24.719 [main]INFO  apiClasses.UserPosts - =====================Expected status code is matching with actual status code
+14:50:24.771 [main]INFO  apiClasses.UserPosts - =======Put has updated the mentioned object
+14:50:24.772 [main]INFO  apiClasses.UserPosts - ===================API response is in JSON format
+14:50:24.773 [main]INFO  apiClasses.UserPosts - ==================API response in String is :{
+  "author": "qaautomationclasses-Smruti",
+  "id": "30",
+  "title": "RestAssured Framework Designing"
+}
+14:50:24.788 [main]INFO  utilities.BaseSteps - Base URI:http://localhost:3000
+14:50:24.788 [main]INFO  apiClasses.UserPosts - ========================User Post end point: http://localhost:3000/posts
+14:50:24.840 [main]INFO  apiClasses.UserPosts - =============Hit the end point with patch Method call
+14:50:24.840 [main]INFO  apiClasses.UserPosts - =====================Expected status code is matching with actual status code
+14:50:24.877 [main]INFO  apiClasses.UserPosts - =======Patch has updated the mentioned object
+14:50:24.881 [main]INFO  apiClasses.UserPosts - ===================API response is in JSON format
+14:50:24.882 [main]INFO  apiClasses.UserPosts - ==================API response in String is :{
+  "author": "Smrutiranjan",
+  "id": "30",
+  "title": "RestAssured Framework Designing"
+}
+14:50:24.900 [main]INFO  utilities.BaseSteps - Base URI:http://localhost:3000
+14:50:24.901 [main]INFO  apiClasses.UserPosts - ========================User Post end point: http://localhost:3000/posts
+14:50:24.978 [main]INFO  apiClasses.UserPosts - ==========response after delete call is:{
+  "author": "Smrutiranjan",
+  "id": "30",
+  "title": "RestAssured Framework Designing"
+}
+14:50:24.979 [main]INFO  apiClasses.UserPosts - =====================Expected status code is matching with actual status code
