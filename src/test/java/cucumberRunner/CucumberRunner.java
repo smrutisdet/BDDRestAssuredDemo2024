@@ -13,5 +13,5 @@ import org.junit.runner.RunWith;
         "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         tags="@e2e"
 )
-public class CucumberRunnerTest {
+public class CucumberRunner {
 }
