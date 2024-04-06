@@ -30,6 +30,7 @@ Feature: Verify User Posts end Point for all supported http method
       | statusCode |
       | 200        |
   ###########################################################
+  @report
   Scenario Outline:Verify the get method call & response-4
     When user hits the end point with get method
     Then api should return valid '<statusCode>' in response

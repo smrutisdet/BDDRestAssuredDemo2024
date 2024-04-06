@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
                  glue={"stepDefinitions"},
         plugin={"pretty","html:target/cucumber-reports/Report.html",
         "json:target/cucumber-reports/Report.json",
-        "junit:target/cucumber-reports/Report.xml"},
+        "junit:target/cucumber-reports/Report.xml",
+        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         tags="@e2e"
 )
 public class CucumberRunnerTest {

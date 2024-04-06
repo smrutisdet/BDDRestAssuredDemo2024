@@ -54,7 +54,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CucumberRunnerTest">
+  <component name="RunManager" selected="Maven.MavenRunner">
     <configuration name="CucumberRunnerTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="BDDRestAssuredDemo2024" />
       <extension name="coverage">
@@ -203,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712395292524</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="implement default cucumber reports">
+      <option name="closed" value="true" />
+      <created>1712401615054</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712401615054</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +235,7 @@
     <MESSAGE value="implement tags" />
     <MESSAGE value="implement maven runner and overide tags from commnd line" />
     <MESSAGE value="implement log4j2" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement log4j2" />
+    <MESSAGE value="implement default cucumber reports" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement default cucumber reports" />
   </component>
 </project>
